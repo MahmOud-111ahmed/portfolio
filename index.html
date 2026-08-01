@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahmoud Ahmed Abd El-Hameed | AI &amp; Machine Learning Engineer</title>
+<meta name="title" content="Mahmoud Ahmed Abd El-Hameed | AI &amp; Machine Learning Engineer">
+<meta name="description" content="Portfolio of Mahmoud Ahmed Abd El-Hameed — an Artificial Intelligence &amp; Data Science engineer building end-to-end machine learning systems, from FastAPI backends to production-ready predictive models.">
+<meta name="keywords" content="Mahmoud Ahmed, AI Engineer, Machine Learning Engineer, Data Scientist, Python Developer, FastAPI, Assiut National University, HemaSense, Portfolio">
+<meta name="author" content="Mahmoud Ahmed Abd El-Hameed">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mahmoud-111ahmed.github.io/portfolio/">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="apple-touch-icon" href="assets/favicon.svg">
+<meta name="theme-color" content="#0F172A">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mahmoud-111ahmed.github.io/portfolio/">
+<meta property="og:title" content="Mahmoud Ahmed Abd El-Hameed | AI &amp; Machine Learning Engineer">
+<meta property="og:description" content="AI &amp; Data Science engineer building end-to-end machine learning systems — from FastAPI backends to production-ready predictive models.">
+<meta property="og:image" content="assets/images/og-cover.png">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://mahmoud-111ahmed.github.io/portfolio/">
+<meta name="twitter:title" content="Mahmoud Ahmed Abd El-Hameed | AI &amp; Machine Learning Engineer">
+<meta name="twitter:description" content="AI &amp; Data Science engineer building end-to-end machine learning systems — from FastAPI backends to production-ready predictive models.">
+<meta name="twitter:image" content="assets/images/og-cover.png">
+
+<!-- Schema.org Person markup -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mahmoud Ahmed Abd El-Hameed",
+  "jobTitle": "Artificial Intelligence & Machine Learning Engineer",
+  "email": "mailto:ma7hmouda7med11@gmail.com",
+  "telephone": "+20 01063980634",
+  "url": "https://mahmoud-111ahmed.github.io/portfolio/",
+  "sameAs": [
+    "https://www.linkedin.com/in/mahmoud-ahmed-607605320",
+    "https://github.com/MahmOud-111ahmed"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Assiut",
+    "addressCountry": "EG"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Assiut National University — Faculty of Computers and Artificial Intelligence"
+  },
+  "knowsAbout": ["Artificial Intelligence","Machine Learning","Data Science","Python","FastAPI","Data Analytics"]
+}
+</script>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<!-- AOS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ===================== LOADER ===================== -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <span class="loader-bracket">&lt;</span>
+    <span class="loader-text" id="loaderText"></span>
+    <span class="loader-bracket">/&gt;</span>
+  </div>
+</div>
+
+<!-- ===================== PROGRESS BAR ===================== -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ===================== NAV ===================== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">M<span>.</span>A<span class="nav-logo-dot">/</span><span class="nav-logo-tag">ai.engineer</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" data-nav>Home</a></li>
+      <li><a href="#about" data-nav>About</a></li>
+      <li><a href="#education" data-nav>Education</a></li>
+      <li><a href="#skills" data-nav>Skills</a></li>
+      <li><a href="#projects" data-nav>Projects</a></li>
+      <li><a href="#experience" data-nav>Experience</a></li>
+      <li><a href="#services" data-nav>Services</a></li>
+      <li><a href="#achievements" data-nav>Achievements</a></li>
+      <li><a href="#contact" data-nav>Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button class="nav-burger" id="navBurger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero" id="home">
+  <canvas id="particles"></canvas>
+  <div class="hero-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+  <div class="hero-grid-overlay"></div>
+
+  <div class="hero-inner">
+    <div class="hero-copy" data-aos="fade-right" data-aos-duration="900">
+      <h1 class="hero-name">Mahmoud Ahmed<br><span class="hero-lastname">Abd El-Hameed</span></h1>
+      <div class="hero-role">
+        <span class="hero-role-prefix">$ role --current</span>
+        <span id="typed" class="hero-role-typed"></span><span class="typed-cursor">|</span>
+      </div>
+      <p class="hero-lead">I build intelligent AI solutions and modern machine learning applications that transform data into real-world impact.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-diagram-project"></i> View Projects</a>
+        <a href="assets/Mahmoud_Ahmed_Resume.pdf" download class="btn btn-outline"><i class="fa-solid fa-file-arrow-down"></i> Download CV</a>
+        <a href="#contact" class="btn btn-ghost"><i class="fa-solid fa-envelope"></i> Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+      <div class="hero-photo-frame">
+        <div class="hero-photo-ring"></div>
+        <img src="assets/images/profile.jpg" alt="Mahmoud Ahmed" class="hero-photo">
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">
+    <span>scroll</span>
+    <i class="fa-solid fa-chevron-down"></i>
+  </a>
+</header>
+
+<main id="main-content">
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section about" id="about">
+  <div class="section-inner">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-eyebrow">01 — About</span>
+      <h2 class="section-title">I build AI systems that <span class="grad-text">ship</span></h2>
+    </div>
+    <div class="about-text-wrap" data-aos="fade-up" data-aos-delay="100">
+      <p>I'm Mahmoud Ahmed, an AI &amp; Machine Learning Engineer who designs and delivers complete, production-oriented systems — not notebooks that stop at a metric. My work sits at the intersection of applied machine learning and backend engineering: I take a raw business problem, turn it into a working model, and wrap that model in an API, a database, and an interface people can actually use.</p>
+      <p>My workflow is consistent across every project: understand the business problem before touching data, clean and engineer features with intent, benchmark multiple algorithms instead of assuming one will win, and validate rigorously before deployment. From there I ship — typically with <strong>FastAPI</strong> or <strong>Flask</strong> backends, a proper database layer, and a role-based interface — so the result is a deployable product, not a proof of concept.</p>
+      <p><strong>HemaSense</strong> is the clearest example: a full diagnostic platform where secretaries register patients, doctors enter lab values, a Decision Tree model flags a likely diagnosis, and an AI chatbot helps interpret the result — all backed by role-based access and an offline-capable database. <strong>LoanIQ</strong> is another: engineered financial ratio features, six benchmarked algorithms, and a Random Forest model deployed behind a live confidence score. Both were built to be used, not just demoed.</p>
+      <p>That's what I bring to a team: the ability to own an AI feature end-to-end — from business requirement to a live, reliable system in production.</p>
+      <div class="about-tags">
+        <span>Artificial Intelligence</span><span>Machine Learning</span><span>Data Science</span>
+        <span>Python</span><span>FastAPI</span><span>Data Analytics</span><span>Problem Solving</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EDUCATION ===================== -->
+<section class="section education" id="education">
+  <div class="section-inner">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-eyebrow">02 — Education</span>
+      <h2 class="section-title">Academic <span class="grad-text">foundation</span></h2>
+    </div>
+    <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="edu-card-main">
+        <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+        <div>
+          <h3>Bachelor's Degree in Artificial Intelligence</h3>
+          <p class="edu-uni">Faculty of Computers and Artificial Intelligence — Assiut National University</p>
+        </div>
+        <div class="edu-badges">
+          <span class="edu-badge"><i class="fa-regular fa-calendar"></i> Expected 2027</span>
+          <span class="edu-badge edu-badge-accent"><i class="fa-solid fa-star"></i> GPA 3.37 / 4.00</span>
+        </div>
+      </div>
+      <div class="edu-course-grid">
+        <span>Machine Learning</span>
+        <span>Deep Learning</span>
+        <span>Artificial Intelligence</span>
+        <span>Neural Networks</span>
+        <span>Database Systems</span>
+        <span>Software Engineering</span>
+        <span>Statistics</span>
+        <span>Data Structures &amp; Algorithms</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section class="section skills" id="skills">
+  <div class="section-inner">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-eyebrow">03 — Technical Skills</span>
+      <h2 class="section-title">The <span class="grad-text">stack</span> I build with</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="skill-card-head"><i class="fa-solid fa-code"></i><h3>Programming Languages</h3></div>
+        <div class="skill-bar" data-progress="88"><div class="skill-bar-fill"></div></div>
+        <div class="skill-tags">
+          <span>Python</span><span>Java</span><span>C++</span><span>JavaScript</span><span>SQL</span><span>MATLAB</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="skill-card-head"><i class="fa-solid fa-brain"></i><h3>Machine Learning</h3></div>
+        <div class="skill-bar" data-progress="90"><div class="skill-bar-fill"></div></div>
+        <div class="skill-tags">
+          <span>Supervised Learning</span><span>Unsupervised Learning</span><span>Deep Learning</span><span>Neural Networks</span><span>Feature Engineering</span><span>Feature Selection</span><span>Model Evaluation</span><span>Cross Validation</span><span>Hyperparameter Tuning</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="skill-card-head"><i class="fa-solid fa-chart-column"></i><h3>Data Analysis</h3></div>
+        <div class="skill-bar" data-progress="85"><div class="skill-bar-fill"></div></div>
+        <div class="skill-tags">
+          <span>EDA</span><span>Data Cleaning</span><span>Statistical Analysis</span><span>Data Storytelling</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="skill-card-head"><i class="fa-solid fa-layer-group"></i><h3>Libraries</h3></div>
+        <div class="skill-bar" data-progress="86"><div class="skill-bar-fill"></div></div>
+        <div class="skill-tags">
+          <span>Pandas</span><span>NumPy</span><span>Scikit-Learn</span><span>XGBoost</span><span>Matplotlib</span><span>Seaborn</span><span>Plotly</span><span>Dash</span><span>Streamlit</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="skill-card-head"><i class="fa-solid fa-server"></i><h3>Backend</h3></div>
+        <div class="skill-bar" data-progress="80"><div class="skill-bar-fill"></div></div>
+        <div class="skill-tags">
+          <span>FastAPI</span><span>REST APIs</span><span>Flask</span>
+        </div>
+      </div>
+
+      <div class="skill-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="skill-card-head"><i class="fa-solid fa-database"></i><h3>Databases</h3></div>
+        <div class="skill-bar" data-progress="78"><div class="skill-bar-fill"></div></div>
+        <div class="skill-tags">
+          <span>MySQL</span><span>SQLite</span>
+        </div>
+      </div>
+
+      <div class="skill-card skill-card-wide" data-aos="fade-up">
+        <div class="skill-card-head"><i class="fa-solid fa-toolbox"></i><h3>Tools</h3></div>
+        <div class="skill-bar" data-progress="82"><div class="skill-bar-fill"></div></div>
+        <div class="skill-tags">
+          <span>Git</span><span>GitHub</span><span>VS Code</span><span>Jupyter Notebook</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="soft-skills" data-aos="fade-up">
+      <h3 class="soft-skills-title"><i class="fa-solid fa-user-group"></i> Beyond the Code</h3>
+      <div class="soft-skills-grid">
+        <div class="soft-skill-pill"><i class="fa-solid fa-puzzle-piece"></i> Problem Solving</div>
+        <div class="soft-skill-pill"><i class="fa-solid fa-comments"></i> Communication</div>
+        <div class="soft-skill-pill"><i class="fa-solid fa-clock"></i> Time Management</div>
+        <div class="soft-skill-pill"><i class="fa-solid fa-people-group"></i> Team Collaboration</div>
+        <div class="soft-skill-pill"><i class="fa-solid fa-users-gear"></i> Leadership</div>
+        <div class="soft-skill-pill"><i class="fa-solid fa-arrows-rotate"></i> Adaptability</div>
+      </div>
+
+      <div class="languages-row">
+        <div class="language-item">
+          <div class="language-head"><span>Arabic</span><small>Native</small></div>
+          <div class="skill-bar" data-progress="98"><div class="skill-bar-fill"></div></div>
+        </div>
+        <div class="language-item">
+          <div class="language-head"><span>English</span><small>Good — Working Proficiency</small></div>
+          <div class="skill-bar" data-progress="72"><div class="skill-bar-fill"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="section projects" id="projects">
+  <div class="section-inner">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-eyebrow">04 — Featured Projects</span>
+      <h2 class="section-title">Things I've <span class="grad-text">shipped</span></h2>
+    </div>
+
+    <div class="projects-showcase">
+
+      <!-- PROJECT 1 -->
+      <article class="project-row" data-aos="fade-up">
+        <div class="project-row-media">
+          <img src="assets/images/hemasense2.png" alt="HemaSense patient management dashboard">
+          <span class="project-tag-role"><i class="fa-solid fa-user-tie"></i> Team Leader</span>
+        </div>
+        <div class="project-row-body">
+          <div class="project-cats"><span>Artificial Intelligence</span><span>Healthcare</span><span>Full Stack</span></div>
+          <h3>HemaSense System</h3>
+          <p>An intelligent healthcare platform that analyzes Complete Blood Count (CBC) results and assists medical staff with AI — combining a Decision Tree model, a FastAPI backend, and a full clinical workflow from patient intake to an AI-generated medical report.</p>
+          <ul class="project-features">
+            <li><i class="fa-solid fa-check"></i> Patient management</li>
+            <li><i class="fa-solid fa-check"></i> Role-based authentication</li>
+            <li><i class="fa-solid fa-check"></i> Medical AI chatbot</li>
+            <li><i class="fa-solid fa-check"></i> Automatic medical reports</li>
+            <li><i class="fa-solid fa-check"></i> Offline MySQL database</li>
+            <li><i class="fa-solid fa-check"></i> Analytics dashboard</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>FastAPI</span><span>Decision Tree</span><span>LLM</span><span>MySQL</span><span>HTML/CSS/JS</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/MahmOud-111ahmed" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            <button class="btn btn-sm btn-ghost" data-modal="modal-hemasense"><i class="fa-solid fa-circle-info"></i> View Details</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 2 -->
+      <article class="project-row project-row-reverse" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-row-media">
+          <img src="assets/images/loaniq1.png" alt="LoanIQ loan approval prediction dashboard">
+          <span class="project-tag-role"><i class="fa-solid fa-robot"></i> ML Engineer</span>
+        </div>
+        <div class="project-row-body">
+          <div class="project-cats"><span>Machine Learning</span><span>Predictive Analytics</span><span>Flask App</span></div>
+          <h3>Loan Approval Prediction — LoanIQ</h3>
+          <p>End-to-end ML application predicting loan approval from applicant financials, covering the complete lifecycle from business understanding to deployment, with engineered ratios like loan-to-income and asset coverage.</p>
+          <ul class="project-features">
+            <li><i class="fa-solid fa-check"></i> 6 algorithms benchmarked, Random Forest selected</li>
+            <li><i class="fa-solid fa-check"></i> Custom engineered features</li>
+            <li><i class="fa-solid fa-check"></i> Confidence-scored predictions</li>
+            <li><i class="fa-solid fa-check"></i> Responsive Flask web app</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>Pandas</span><span>Scikit-Learn</span><span>Random Forest</span><span>XGBoost</span><span>Flask</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/MahmOud-111ahmed" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            <button class="btn btn-sm btn-ghost" data-modal="modal-loaniq"><i class="fa-solid fa-circle-info"></i> View Details</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 3 -->
+      <article class="project-row" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-row-media project-row-media-placeholder">
+          <i class="fa-solid fa-heart-pulse"></i>
+          <span class="project-tag-role"><i class="fa-solid fa-users"></i> Team Member</span>
+        </div>
+        <div class="project-row-body">
+          <div class="project-cats"><span>Machine Learning</span><span>Healthcare</span></div>
+          <h3>Healthcare Predictive Analytics</h3>
+          <p>A machine learning solution predicting heart disease severity, built through careful data cleaning, EDA and feature engineering, then wrapped in an interactive Streamlit app for real-time predictions.</p>
+          <ul class="project-features">
+            <li><i class="fa-solid fa-check"></i> Data cleaning &amp; EDA</li>
+            <li><i class="fa-solid fa-check"></i> Feature engineering</li>
+            <li><i class="fa-solid fa-check"></i> Model training &amp; evaluation</li>
+            <li><i class="fa-solid fa-check"></i> Interactive Streamlit UI</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>Scikit-Learn</span><span>XGBoost</span><span>Streamlit</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/MahmOud-111ahmed" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            <button class="btn btn-sm btn-ghost" data-modal="modal-health"><i class="fa-solid fa-circle-info"></i> View Details</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJECT 4 -->
+      <article class="project-row project-row-reverse" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-row-media project-row-media-placeholder">
+          <i class="fa-solid fa-chart-pie"></i>
+          <span class="project-tag-role"><i class="fa-solid fa-user-tie"></i> Team Leader</span>
+        </div>
+        <div class="project-row-body">
+          <div class="project-cats"><span>Data Analytics</span><span>Business Intelligence</span></div>
+          <h3>Chocolate Sales Dashboard</h3>
+          <p>An interactive analytics dashboard visualizing revenue, top countries, products and monthly sales trends for a chocolate distribution business — built so a non-technical business user could explore the numbers themselves.</p>
+          <ul class="project-features">
+            <li><i class="fa-solid fa-check"></i> Revenue &amp; trend visualizations</li>
+            <li><i class="fa-solid fa-check"></i> Country &amp; product breakdowns</li>
+            <li><i class="fa-solid fa-check"></i> Monthly performance views</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>Dash</span><span>Plotly</span><span>Bootstrap</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://github.com/MahmOud-111ahmed" target="_blank" rel="noopener" class="btn btn-sm btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            <button class="btn btn-sm btn-ghost" data-modal="modal-choco"><i class="fa-solid fa-circle-info"></i> View Details</button>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIENCE & TRAINING ===================== -->
+<section class="section experience" id="experience">
+  <div class="section-inner">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-eyebrow">05 — Experience &amp; Professional Training</span>
+      <h2 class="section-title">The <span class="grad-text">journey</span> so far</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-up">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-card-head">
+            <div class="timeline-logo"><i class="fa-solid fa-building-columns"></i></div>
+            <div>
+              <span class="timeline-date">Digital Egypt Pioneers Initiative (DEPI)</span>
+              <h3>AI &amp; Data Science Trainee</h3>
+            </div>
+          </div>
+          <p>Completed an intensive professional training program focused on Artificial Intelligence, Data Science and Software Engineering, working on multiple real-world projects that followed industry standards end to end.</p>
+          <div class="project-tech">
+            <span>Python Programming</span><span>Data Analysis</span><span>Data Visualization</span><span>Machine Learning</span><span>Deep Learning Fundamentals</span><span>Feature Engineering</span><span>Model Evaluation</span><span>Team Collaboration</span><span>Git &amp; GitHub</span><span>Software Engineering</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-card-head">
+            <div class="timeline-logo"><i class="fa-solid fa-tower-broadcast"></i></div>
+            <div>
+              <span class="timeline-date">National Telecommunication Institute (NTI)</span>
+              <h3>Machine Learning Trainee</h3>
+            </div>
+          </div>
+          <p>Completed practical, hands-on training focused specifically on Machine Learning — building complete end-to-end projects from raw data to a deployed application.</p>
+          <div class="project-tech">
+            <span>Data Cleaning</span><span>EDA</span><span>Feature Engineering</span><span>Feature Selection</span><span>ML Algorithms</span><span>Model Evaluation</span><span>Hyperparameter Tuning</span><span>Cross Validation</span><span>Flask Deployment</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-card-head">
+            <div class="timeline-logo"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div>
+              <span class="timeline-date">2023 — Present</span>
+              <h3>AI &amp; Data Science Student</h3>
+            </div>
+          </div>
+          <p>Building a foundation in machine learning, neural networks and statistics at Assiut National University, while shipping independent and team projects that put the theory to work.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="section services" id="services">
+  <div class="section-inner">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-eyebrow">06 — Services</span>
+
+      <h2 class="section-title">How I can <span class="grad-text">help</span></h2>
+    </div>
+    <div class="services-grid">
+      <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+        <h3>Machine Learning Solutions</h3>
+        <p>End-to-end ML pipelines — from raw data to a tuned, evaluated model.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="60">
+        <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+        <h3>Predictive Analytics</h3>
+        <p>Turning historical data into forward-looking predictions and risk scores.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="service-icon"><i class="fa-solid fa-chart-pie"></i></div>
+        <h3>Data Analysis &amp; Visualization</h3>
+        <p>Cleaning messy data and turning it into dashboards people actually use.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="180">
+        <div class="service-icon"><i class="fa-solid fa-gauge-high"></i></div>
+        <h3>Dashboard Development</h3>
+        <p>Interactive Dash, Plotly and Streamlit apps for exploring live data.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-icon"><i class="fa-solid fa-server"></i></div>
+        <h3>FastAPI &amp; Flask Development</h3>
+        <p>Backend services and REST APIs that put a model in front of real users.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="60">
+        <div class="service-icon"><i class="fa-solid fa-database"></i></div>
+        <h3>Database Design</h3>
+        <p>Clean, normalized MySQL/SQLite schemas built to hold up in production.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="service-icon"><i class="fa-solid fa-broom"></i></div>
+        <h3>Data Cleaning &amp; EDA</h3>
+        <p>The unglamorous groundwork that decides whether a model can succeed.</p>
+      </div>
+      <div class="service-card" data-aos="fade-up" data-aos-delay="180">
+        <div class="service-icon"><i class="fa-solid fa-rocket"></i></div>
+        <h3>Model Training &amp; Deployment</h3>
+        <p>Comparing algorithms honestly, then shipping the one that actually wins.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ACHIEVEMENTS ===================== -->
+<section class="section achievements" id="achievements">
+  <div class="section-inner">
+    <div class="section-head" data-aos="fade-up">
+      <span class="section-eyebrow">07 — Achievements &amp; Certifications</span>
+      <h2 class="section-title">Milestones <span class="grad-text">unlocked</span></h2>
+    </div>
+    <div class="achievements-grid">
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="0">
+        <i class="fa-solid fa-award"></i>
+        <h3>DEPI Graduate</h3>
+        <p>Completed the AI &amp; Data Science Track of the Digital Egypt Pioneers Initiative — Machine Learning, Data Analysis, Software Engineering, and real-world AI projects.</p>
+      </div>
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="60">
+        <i class="fa-solid fa-certificate"></i>
+        <h3>NTI Certified</h3>
+        <p>Completed a professional Machine Learning track at the National Telecommunication Institute, building complete end-to-end ML applications and deployment.</p>
+      </div>
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="120">
+        <i class="fa-solid fa-users-gear"></i>
+        <h3>Team Leader — HemaSense</h3>
+        <p>Led the development of an AI-powered healthcare platform integrating Machine Learning with FastAPI.</p>
+      </div>
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="180">
+        <i class="fa-solid fa-cubes-stacked"></i>
+        <h3>End-to-End ML Delivery</h3>
+        <p>Shipped multiple complete machine learning applications from data preprocessing to deployment, not just notebooks.</p>
+      </div>
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="240">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <h3>AI Healthcare Solutions</h3>
+        <p>Designed intelligent healthcare systems using Machine Learning and modern backend technologies.</p>
+      </div>
+      <div class="achievement-card" data-aos="zoom-in" data-aos-delay="300">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Interactive Dashboards</h3>
+        <p>Designed data dashboards that turn raw numbers into decisions non-technical stakeholders can act on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section contact" id="contact">
+  <div class="section-inner">
+    <div class="contact-cta" data-aos="fade-up">
+      <h2>Let's Build Intelligent Solutions <span class="grad-text">Together.</span></h2>
+      <p>I'm always open to internships, collaborations, freelance opportunities, and AI / Data Science projects.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info" data-aos="fade-right">
+        <a href="mailto:ma7hmouda7med11@gmail.com" class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div><span>Email</span><p>ma7hmouda7med11@gmail.com</p></div>
+        </a>
+        <a href="tel:+2001063980634" class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div><span>Phone</span><p>+20 01063980634</p></div>
+        </a>
+        <a href="https://www.linkedin.com/in/mahmoud-ahmed-607605320" target="_blank" rel="noopener" class="contact-item">
+          <i class="fa-brands fa-linkedin"></i>
+          <div><span>LinkedIn</span><p>mahmoud-ahmed-607605320</p></div>
+        </a>
+        <a href="https://github.com/MahmOud-111ahmed" target="_blank" rel="noopener" class="contact-item">
+          <i class="fa-brands fa-github"></i>
+          <div><span>GitHub</span><p>MahmOud-111ahmed</p></div>
+        </a>
+        <div class="contact-map">
+          <iframe
+            title="Map showing Assiut, Egypt"
+            src="https://www.google.com/maps?q=Assiut,Egypt&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            aria-label="Google Map of Assiut, Egypt"></iframe>
+        </div>
+      </div>
+
+      <form class="contact-form" data-aos="fade-left" id="contactForm" aria-label="Contact form">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="Your name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="you@email.com" required>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">M<span>.</span>A</div>
+    <div class="footer-social">
+      <a href="https://github.com/MahmOud-111ahmed" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/mahmoud-ahmed-607605320" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="mailto:ma7hmouda7med11@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:+2001063980634" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Mahmoud Ahmed. Made with <i class="fa-solid fa-heart"></i> by Mahmoud Ahmed.</p>
+  </div>
+</footer>
+
+<!-- back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- ===================== MODALS ===================== -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box" id="modal-hemasense" role="dialog" aria-modal="true" aria-labelledby="modal-hemasense-title">
+    <button class="modal-close" data-close aria-label="Close dialog">&times;</button>
+    <h3 id="modal-hemasense-title">HemaSense System</h3>
+    <img src="assets/images/hemasense3.png" alt="HemaSense medical report creation screen">
+    <p>A full laboratory-report workflow: secretaries register patients, doctors fill in CBC values with normal-range guidance, and the platform runs a Decision Tree model to suggest a diagnosis before generating a shareable medical report.</p>
+    <img src="assets/images/hemasense1.png" alt="HemaSense role-based login screen">
+    <div class="modal-detail"><h4><i class="fa-solid fa-triangle-exclamation"></i> Challenge</h4><p>Hospitals still hand-write CBC reports and pass paper between the lab, secretary, and doctor — slow, error-prone, and impossible to search later.</p></div>
+    <div class="modal-detail"><h4><i class="fa-solid fa-lightbulb"></i> Solution</h4><p>Built a role-based FastAPI platform where secretaries register patients, doctors enter CBC values against reference ranges, and a Decision Tree model flags likely diagnoses before an AI chatbot helps interpret results.</p></div>
+    <div class="modal-detail"><h4><i class="fa-solid fa-chart-simple"></i> Result</h4><p>A working prototype covering the full patient journey — intake, diagnosis support, and an auto-generated, shareable medical report — with an offline MySQL database for clinics without reliable internet.</p></div>
+  </div>
+  <div class="modal-box" id="modal-loaniq" role="dialog" aria-modal="true" aria-labelledby="modal-loaniq-title">
+    <button class="modal-close" data-close aria-label="Close dialog">&times;</button>
+    <h3 id="modal-loaniq-title">Loan Approval Prediction — LoanIQ</h3>
+    <img src="assets/images/loaniq2.png" alt="LoanIQ prediction form and AI result">
+    <p>Applicants' income, assets, CIBIL score and loan terms feed a Random Forest model trained across 14 financial features, returning an approval decision with a live confidence score in under a second.</p>
+    <div class="modal-detail"><h4><i class="fa-solid fa-triangle-exclamation"></i> Challenge</h4><p>Raw financial fields (income, assets, loan amount) don't separate approved from rejected applicants well on their own — the signal was hiding in the relationships between them.</p></div>
+    <div class="modal-detail"><h4><i class="fa-solid fa-lightbulb"></i> Solution</h4><p>Engineered ratio features — Total Assets, Loan-to-Income, Assets-to-Loan — then benchmarked six algorithms (Logistic Regression through XGBoost) with cross-validation and hyperparameter tuning.</p></div>
+    <div class="modal-detail"><h4><i class="fa-solid fa-chart-simple"></i> Result</h4><p>Random Forest generalized best across folds and was deployed in a responsive Flask app that returns a decision plus a confidence score in under a second.</p></div>
+  </div>
+  <div class="modal-box" id="modal-health" role="dialog" aria-modal="true" aria-labelledby="modal-health-title">
+    <button class="modal-close" data-close aria-label="Close dialog">&times;</button>
+    <h3 id="modal-health-title">Healthcare Predictive Analytics</h3>
+    <p>Built to flag heart disease severity from patient vitals and history. The pipeline moved from raw, noisy clinical data through cleaning and feature engineering to a tuned XGBoost model, deployed in a Streamlit app doctors could use directly.</p>
+    <div class="modal-detail"><h4><i class="fa-solid fa-triangle-exclamation"></i> Challenge</h4><p>Clinical datasets are small and noisy, so an overfit model would look great in testing and fail on new patients.</p></div>
+    <div class="modal-detail"><h4><i class="fa-solid fa-lightbulb"></i> Solution</h4><p>Focused on disciplined preprocessing and feature engineering first, then compared KNN and XGBoost with proper evaluation before picking a final model.</p></div>
+    <div class="modal-detail"><h4><i class="fa-solid fa-chart-simple"></i> Result</h4><p>A model with strong, consistent performance across evaluation metrics, wrapped in an interactive Streamlit app for real-time predictions.</p></div>
+  </div>
+  <div class="modal-box" id="modal-choco" role="dialog" aria-modal="true" aria-labelledby="modal-choco-title">
+    <button class="modal-close" data-close aria-label="Close dialog">&times;</button>
+    <h3 id="modal-choco-title">Chocolate Sales Dashboard</h3>
+    <p>A Dash and Plotly dashboard turning a raw sales export into a decision-making tool — filterable by country and product, with monthly trend lines that surfaced where revenue was actually coming from.</p>
+    <div class="modal-detail"><h4><i class="fa-solid fa-triangle-exclamation"></i> Challenge</h4><p>The raw sales export was just rows in a spreadsheet — nobody on the business side could see trends by country or product without manually pivoting it.</p></div>
+    <div class="modal-detail"><h4><i class="fa-solid fa-lightbulb"></i> Solution</h4><p>Built an interactive Dash and Plotly dashboard with filters for country, product, and time period, backed by a clean Pandas processing layer.</p></div>
+    <div class="modal-detail"><h4><i class="fa-solid fa-chart-simple"></i> Result</h4><p>A self-serve dashboard that let the team spot top-performing products and seasonal trends without touching a line of code.</p></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
